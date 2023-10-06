@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500&family=Overpass:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+	font-family: overpass;
+	box-sizing: border-box;
+	overflow-x: hidden;
+
+}
+.background-img1{
+	background-image: url('../images/bg-img.jpg');
+	background-size: cover;
+	background-position: center;
+
+}
+.background-color1{
+	background-color: rgba(37, 52, 139, 0.9);
+	color: #f2f1f6;
+}
+.btn-custom1{
+	background-color: #7667f8;
+}
+.btn-custom2{
+	background-color: #c902fb;
+}
+
+.h-smart p.h3{
+	color: #4d4e52;
+}
+.icon{
+	color: #2a40b8;
+}
+.vbackground-img{
+	background-image: url('../images/bg-img.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.vbackground-color{
+	background-color: rgba(37, 52, 139, 0.9);
+	color: #f2f1f6;
+
+}
+.vid-icon{
+	color: #ffffff;
+}
+.d-icon{
+	color: #3047ba;
+	font-size: 25px;
+}
+.d-num{
+	padding-top: 10px;
+	color: black;
+	font-size: 24px;
+	font-weight: 500;
+
+}
+.d-det{
+	color: #6979cb;
+	font-weight: 500;
+	line-height: 0;
+
+}
+.get-connected{
+	background-color: #f7f7f7;
+	padding: 40px 0;
+}
+.btn-custom3{
+	background-color: #7667f8;
+}
+h2.color{
+	color: #2f3035;
+	font-weight: 700;
+}
+.h-c h5{
+	color: #4257c0;
+
+}
+.name{
+	color: #4257c0;
+}
+.gbackground-custom1{
+	background-image: url('../images/bg-img.jpg');
+	background-size: cover;
+	height: 100%;
+	background-position: center;
+
+}
+.gbackground-custom2{
+	background-color: rgba(63, 81, 191, 0.9);
+
+}
+.pdh{
+	border: 3px solid #7667f8;
+	height: 10px;
+	border-radius: unset;
+}
+.cl{
+	background-color: #7667f8;
+}
+.c-icon{
+	color: #3047ba;
+	font-size: 12px;
+	background-color: white;
+	border-radius: 4px;
+
+}
+.btn-cust{
+	border-radius: 25px;
+	color: #c902fb;
+	border-color:  #c902fb;
+}
+.clr-cust{
+	color: #4257c0;
+
+}
+.slide-custom{
+	top: 0;
+	bottom: auto;
+}
+.cus:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(37, 52, 139, 0.7);
+  z-index: 1;
+}
+
+.carousel-caption {
+  z-index: 2;
+}
+.background-color5{
+	background-color: rgba(37, 41, 50, 0.8);
+	color: #f2f1f6;
+}
+.f-con{
+	color: white;
+	background-color: black;
+	border-radius: 50%;
+
+}
+.unh{
+	position: relative;
+}
+.unh::after{
+	content: "";
+	width: 10%;
+	position: absolute;
+	display: block;
+	border: 1px solid #f6f1f1;
+	left: 45%;
+	bottom: -46%;
+}
+.unh::before{
+	content: "";
+	width: 3%;
+	position: absolute;
+	display: block;
+	border: 1px solid #3047ba;
+	left: 48.5%;
+	bottom: -43%;
+	z-index: 1;
+
+}
